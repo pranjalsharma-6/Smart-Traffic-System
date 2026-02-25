@@ -6,7 +6,6 @@ import pandas as pd
 import time
 import plotly.graph_objects as go
 import plotly.express as px
-from PIL import Image
 import supervision as sv
 from src.detector import TrafficDetector
 from src.tracker import TrafficTracker
@@ -17,8 +16,6 @@ from src.speed_estimator import SpeedEstimator
 from src.incident_detector import IncidentDetector
 from src.heatmap_generator import HeatmapGenerator
 import config
-import sys
-import io
 import logging
 
 # Suppress harmless Tornado asyncio noise
